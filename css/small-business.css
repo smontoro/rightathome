@@ -14,10 +14,10 @@ body {
   }
 }
 
-/**Buttons**/
-.btn {
-	background-color: #009F95;
+.navbar{
+	background-color: #565656 ;
 }
+
 
 /**HEADER**/	
 
@@ -25,10 +25,14 @@ body {
 	font-size: 18px;
 }
 
+.heading-text h2 {
+	color: #76323F;
+}
+
 /**Call to Action Well**/
 
 .action {
-	background-color: #343A41;
+	background-color: #565656;
 }
 
 .action-well {
@@ -38,9 +42,36 @@ body {
 
 /**About**/
 
-
-.about h2 {
-	font-weight: bolder;
+.about {
+	background-color: #E1D8D1;
+	padding: 25px;
+	border-radius: 10px;
 }
 
+.about h2 {
+	color: #76323F;
+}
+
+.about h6 {
+	font-weight: bold;
+}
+
+.about p {
+	font-style: italic;
+}
+
+.about img {
+	border-radius: 100%;
+}
+
+/**Services**/
+.card-footer {
+	background-color: #D7CEC7;
+}
+
+
+/**FOOTER**/
+footer {
+	background-color: #565656;
+}
 
