@@ -1,0 +1,46 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/**Buttons**/
+.btn {
+	background-color: #009F95;
+}
+
+/**HEADER**/	
+
+.heading-text {
+	font-size: 18px;
+}
+
+/**Call to Action Well**/
+
+.action {
+	background-color: #343A41;
+}
+
+.action-well {
+	font-size: 25px;
+	font-style: italic;
+}
+
+/**About**/
+
+
+.about h2 {
+	font-weight: bolder;
+}
+
+
