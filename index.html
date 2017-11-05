@@ -43,13 +43,13 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -86,7 +86,7 @@
 
           <!-- About Us Row -->
         <!-- .col-lg-7 -->
-      <div class="row my-4 about">
+      <div class="row my-4 about" id="about">
         <div class="col-lg-6">
           <h2>About Us</h2>
           <h4>Flavio Montoro & Patty Button</h4>
@@ -98,14 +98,14 @@
         </div>
         <!-- .col-md-5 -->
         <div class="col-lg-6">
-          <img class="img-fluid about-img mt-3" src="img/about-img.jpg" alt="headshot">
+          <img class="img-fluid about-img mt-5 ml-5" src="img/about-img.jpg" alt="headshot">
         </div>
       </div>
       <!-- /.row -->
 
 
       <!-- Services Row -->
-      <div class="row text-center">
+      <div class="row text-center" id="services">
         <div class="col-md-4 mb-4">
           <div class="card h-100">
             <div class="card-body">
@@ -125,7 +125,7 @@
           <div class="card h-100">
             <div class="card-body">
               <img src="img/medicine.png">
-              <h2 class="card-title">Review Your Plan Choices</h2>
+              <h2 class="card-title">Review your plan choices</h2>
               <p class="card-text">There are over 1,300 plan choices in California. As independent insurance agents, we can offer advice on:</p>
               <ul class="choices">
                 <li>Medicare supplements</li>
@@ -160,7 +160,7 @@
        <!-- Contact Form -->
       <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
 
-      <div class="row my-5">
+      <div class="row my-5" id="contact">
         <div class="col-lg-6 mb-4">
           <h3>Send us a Message</h3>
           <form name="sentMessage" id="contactForm" novalidate>
@@ -172,7 +172,7 @@
             </div>
             <div class="control-group form-group">
               <div class="controls">
-                <input type="tel" class="form-control" id="phone" placeholder="Phone number" required data-validation-required-message="Please enter your phone number.">
+                <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required data-validation-required-message="Please enter your phone number.">
               </div>
             </div>
             <div class="control-group form-group">
@@ -182,8 +182,7 @@
             </div>
             <div class="control-group form-group">
               <div class="controls">
-                <label>Message:</label>
-                <textarea rows="6" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                <textarea rows="6" cols="100" class="form-control" id="message" placeholder="Message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
               </div>
             </div>
             <div id="success"></div>
@@ -192,7 +191,7 @@
           </form>
         </div>
 
-        <div class="col-lg-6 mt-5 text-center">
+        <div class="col-lg-6 mt-4 text-center">
        <!-- ========== Google Map ===================== -->
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.6821516063223!2d-118.32247418479176!3d33.79470528067676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd4a67a9551a85%3A0xb1568a1bc54768d6!2s25323+Narbonne+Ave%2C+Lomita%2C+CA+90717!5e0!3m2!1sen!2sus!4v1509838008164" width="90%" height="90%" frameborder="0" style="border:0" allowfullscreen></iframe>
         <!-- ========== End Google Map ===================== -->
