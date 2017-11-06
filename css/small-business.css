@@ -63,6 +63,7 @@ body {
 .about img {
 	border-radius: 5%;
 	width: 80%;
+
 }
 
 /**Services**/
@@ -79,4 +80,41 @@ body {
 footer {
 	background-color: #565656;
 }
+
+/** ================ RESOURCES ==============**/
+
+/** HEADER **/
+.resources-img {
+	width: 100%;
+}
+
+/** PUBLICATIONS **/
+.publications ul {
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
