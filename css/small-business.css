@@ -84,6 +84,14 @@ footer {
 	background-color: #565656;
 }
 
+footer ul {
+	list-style: none;
+}
+
+footer p {
+	font-size: 12px;
+}
+
 /** ================ RESOURCES ==============**/
 
 /** Sidebar **/
@@ -102,9 +110,9 @@ footer {
 /** Providers **/
 
 .providers p{
-	
 	font-size: 20px;
 }
+
 
 
 
