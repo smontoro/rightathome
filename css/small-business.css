@@ -33,6 +33,7 @@ body {
 
 .action {
 	background-color: #565656;
+	border-radius: 3px;
 }
 
 .action-well {
@@ -61,8 +62,10 @@ body {
 }
 
 .about img {
-	border-radius: 5%;
-	width: 80%;
+	border-radius: 2%;
+	width: 75%;
+	padding-top: 8px;
+	margin-left: 60px;
 
 }
 
@@ -83,25 +86,25 @@ footer {
 
 /** ================ RESOURCES ==============**/
 
-/** HEADER **/
-.resources-img {
-	width: 100%;
+/** Sidebar **/
+
+.websites p {
+	font-size: 14px;
 }
 
-/** PUBLICATIONS **/
-.publications ul {
-	list-style: none;
+/** Sidebar **/
+.publications {
+	background-color: #E1D8D1;
+	padding: 45px;
+	border-radius: 5px;
 }
 
+/** Providers **/
 
-
-
-
-
-
-
-
-
+.providers p{
+	
+	font-size: 20px;
+}
 
 
 
