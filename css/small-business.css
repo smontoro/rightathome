@@ -35,6 +35,7 @@ body {
 	width: 100%;
 }
 
+
 /**Call to Action Well**/
 
 .action {
@@ -127,7 +128,11 @@ footer p {
 }
 
 
-
+@media (max-width: 992px) {
+	.publications {
+		margin-bottom: 25px;
+	}
+}
 
 
 
