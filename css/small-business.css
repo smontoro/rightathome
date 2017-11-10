@@ -131,6 +131,7 @@ footer p {
 @media (max-width: 992px) {
 	.publications {
 		margin-bottom: 25px;
+		text-align: center;
 	}
 }
 
