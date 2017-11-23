@@ -127,7 +127,6 @@ footer p {
 	color: black;
 }
 
-
 @media (max-width: 992px) {
 	.publications {
 		margin-bottom: 25px;
@@ -136,12 +135,16 @@ footer p {
 }
 
 @media (max-width: 526px) {
-	.nav-brand {
-		margin: 0 auto;
+	.toggle {
+		height: 30px;
+		width: 100%;
+		background-color: grey;
 	}
-	.navbar-toggler {
-		margin: 0 auto;
+
+	.navbar-toggle {
+		margin: auto 0;
 	}
+
 }
 
 
