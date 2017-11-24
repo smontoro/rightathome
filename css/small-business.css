@@ -136,13 +136,7 @@ footer p {
 
 @media (max-width: 526px) {
 	.toggle {
-		height: 30px;
-		width: 100%;
-		background-color: grey;
-	}
-
-	.navbar-toggle {
-		margin: auto 0;
+		text-center: auto;
 	}
 
 }
